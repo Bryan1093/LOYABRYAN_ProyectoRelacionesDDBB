@@ -8,19 +8,13 @@
 		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-<<<<<<< HEAD
 	<groupId>ec.uce.edu</groupId>
 	<artifactId>PersistenciaDDBB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PersistenciaDDBB</name>
 	<description>Demo project for Spring Boot</description>
-=======
-	<groupId>ec.edu.uce</groupId>
-	<artifactId>ProyectoRelacionesDDBB</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>ProyectoRelacionesDDBB</name>
-	<description>Persistencia (DDBB)</description>
->>>>>>> f720af9e625b3476b2b771b7f3257e1e02367664
+
+
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -29,14 +23,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-<<<<<<< HEAD
 
-=======
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
->>>>>>> f720af9e625b3476b2b771b7f3257e1e02367664
+
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
@@ -48,11 +40,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-<<<<<<< HEAD
-=======
-
->>>>>>> f720af9e625b3476b2b771b7f3257e1e02367664
 	<build>
 		<plugins>
 			<plugin>
